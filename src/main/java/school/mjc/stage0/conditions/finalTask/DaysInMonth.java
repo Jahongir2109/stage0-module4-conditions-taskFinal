@@ -17,6 +17,7 @@ public class DaysInMonth {
             case 9:
             case 11:
                 System.out.println(30);
+                break;
             case 2:
                 if(year%4==0 && year%100!=0 || year%400==0){
                     System.out.println(29);

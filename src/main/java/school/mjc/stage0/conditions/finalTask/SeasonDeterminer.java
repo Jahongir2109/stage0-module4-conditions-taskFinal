@@ -22,6 +22,8 @@ public class SeasonDeterminer {
             case 10:
             case 11:
                 System.out.println("Autumn");
+            default:
+                System.out.println("Wrong month number");
         }
     }
 }
